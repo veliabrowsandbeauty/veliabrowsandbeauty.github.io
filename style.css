@@ -519,3 +519,64 @@ footer p {
   }
 
 }
+
+/* ===== FINITIONS MOBILE ===== */
+
+@media (max-width: 700px) {
+
+  .hero {
+    min-height: 90vh;
+  }
+
+  .hero-content {
+    padding: 100px 22px 60px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    line-height: 1.05;
+  }
+
+  .hero .subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .hero .description {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 8px auto;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .prestations-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .prestations h2 {
+    font-size: 42px;
+  }
+
+  .prestation-card {
+    padding: 25px 20px;
+  }
+
+  .prestation-card h3 {
+    font-size: 25px;
+  }
+
+  .prestation-line {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}
