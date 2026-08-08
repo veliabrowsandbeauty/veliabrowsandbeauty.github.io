@@ -642,3 +642,21 @@ footer p {
     margin-top: 15px;
   }
 }
+@media (max-width: 700px) {
+
+  .header nav {
+    display: none !important;
+  }
+
+  .hero-content {
+    padding-top: 210px !important;
+  }
+
+  .hero h1 {
+    font-size: 50px !important;
+    line-height: 1.08 !important;
+    margin: 0 auto 35px !important;
+    max-width: 350px;
+  }
+
+}
