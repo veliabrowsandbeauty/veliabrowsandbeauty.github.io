@@ -660,3 +660,9 @@ footer p {
   }
 
 }
+/* MENU MOBILE - CORRECTION */
+@media (max-width: 700px) {
+  nav {
+    display: none !important;
+  }
+}
