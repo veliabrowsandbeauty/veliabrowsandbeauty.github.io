@@ -580,3 +580,65 @@ footer p {
     padding: 10px 0;
   }
 }
+/* ===== CORRECTION MENU + HERO MOBILE ===== */
+
+@media (max-width: 700px) {
+
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+  }
+
+  .header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 20px;
+  }
+
+  .logo {
+    margin-bottom: 18px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    margin: 0;
+  }
+
+  nav a {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  .hero-content {
+    padding-top: 190px;
+  }
+
+  .hero h1 {
+    font-size: 52px;
+    line-height: 1.08;
+    margin-bottom: 30px;
+  }
+
+  .hero .description {
+    max-width: 330px;
+    margin: 0 auto 35px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .hero .btn {
+    margin-top: 15px;
+  }
+}
