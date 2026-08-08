@@ -675,13 +675,13 @@ footer p {
   .hero h1 {
     font-size: 48px !important;
     line-height: 0.95 !important;
-    max-width: 330px !important;
+    max-width: 100% !important;
     margin: 0 auto 35px !important;
-  }
+}
 
-  .hero h1 br {
-    display: none;
-  }
+.hero h1 br {
+    display: block !important;
+}
 
   .hero .description {
     max-width: 330px !important;
