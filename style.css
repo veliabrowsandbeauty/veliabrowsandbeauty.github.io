@@ -692,7 +692,7 @@ footer p {
 }
 @media (max-width: 700px) {
     .hero h1 {
-        font-size: 42px !important;
+        font-size: 40px !important;
     }
 
     .hero h1 span {
@@ -705,7 +705,7 @@ footer p {
   .hero h1 {
     max-width: 100% !important;
     width: 100% !important;
-    font-size: 42px !important;
+    font-size: 40px !important;
     text-align: center !important;
   }
 
